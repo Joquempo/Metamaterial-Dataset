@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------
+[1] Reference for the sensitivity expressions
+
+Cunha, D.C., de Almeida, B.V., Lopes, H.N., Pavanello, R.
+Finite variation sensitivity analysis for discrete topology optimization of continuum structures.
+Struct Multidisc Optim 64, 3877–3909 (2021).
+https://doi.org/10.1007/s00158-021-03066-z
+----------------------------------------------------------------------------------------------------------------
+[1] BibTeX
+
+@article{cunha2021finite,
+  title={Finite variation sensitivity analysis for discrete topology optimization of continuum structures},
+  author={Cunha, Daniel Candeloro and de Almeida, Breno Vincenzo and Lopes, Heitor Nigro and Pavanello, Renato},
+  journal={Structural and Multidisciplinary Optimization},
+  volume={64},
+  number={6},
+  pages={3877--3909},
+  year={2021},
+  publisher={Springer}
+}
+----------------------------------------------------------------------------------------------------------------
