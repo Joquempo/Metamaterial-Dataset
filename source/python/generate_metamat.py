@@ -86,7 +86,7 @@ if total % noptf != 0:
 total = total // noptf
 print('valid SILP dataset!')
 print('{:04d} / {:04d} files in the SILP dataset ({:5.1f} %)\n'.format(
-      total,18381//noptf,total*noptf*100/18381))
+      total,18382//noptf,total*noptf*100/18382))
 
 # check directories
 if not os.path.exists('../../dataset'):
