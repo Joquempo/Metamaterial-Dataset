@@ -553,9 +553,9 @@ while fid < min([fid_lim,inputmat.shape[0]]):
                     continent = np.zeros(N,dtype=bool)    
                     visit(e,y,continent,neighbors)
                     continent_vol = sum(continent)/N
-                if continent_vol > 0.50*vol:
+                if continent_vol > 0.50*voly:
                     break
-            if continent_vol > 0.50*vol:
+            if continent_vol > 0.50*voly:
                 islands = np.argwhere(y!=continent).ravel()
                 if len(islands) > dXmax:
                     sortedargs = np.argsort(abs(fil_Ey[islands]))
