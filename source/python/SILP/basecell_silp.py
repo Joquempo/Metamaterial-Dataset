@@ -548,6 +548,7 @@ while fid < min([fid_lim,inputmat.shape[0]]):
             # remove islands
             voly = sum(y)/N
             continent = np.zeros(N,dtype=bool)
+            continent_vol = 0.0
             for e in (list(range(0,Ns))+list(range(Ns,N,Ns))):
                 if y[e] and (not continent[e]):
                     continent = np.zeros(N,dtype=bool)    
@@ -697,6 +698,7 @@ while fid < min([fid_lim,inputmat.shape[0]]):
         y = top_opt.copy()
         voly = sum(y)/N
         continent = np.zeros(N,dtype=bool)
+        continent_vol = 0.0
         for e in (list(range(0,Ns))+list(range(Ns,N,Ns))):
             if y[e] and (not continent[e]):
                 continent = np.zeros(N,dtype=bool)    
