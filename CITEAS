@@ -1,10 +1,17 @@
 ----------------------------------------------------------------------------------------------------------------
-[1] Reference for the sensitivity expressions
+[1] Reference for the sensitivity expressions (compliance)
 
 Cunha, D.C., de Almeida, B.V., Lopes, H.N., Pavanello, R.
 Finite variation sensitivity analysis for discrete topology optimization of continuum structures.
 Struct Multidisc Optim 64, 3877–3909 (2021).
 https://doi.org/10.1007/s00158-021-03066-z
+--------------------------------------------------------
+[2] Reference for the sensitivity expressions (homogenized properties)
+
+Cunha, D.C., Pavanello, R.
+Finite variation sensitivity analysis in the design of isotropic metamaterials through discrete topology optimization.
+International Journal for Numerical Methods in Engineering, e7560 (2023).
+https://doi.org/10.1002/nme.7560
 ----------------------------------------------------------------------------------------------------------------
 [1] BibTeX
 
@@ -17,5 +24,16 @@ https://doi.org/10.1007/s00158-021-03066-z
   pages={3877--3909},
   year={2021},
   publisher={Springer}
+}
+--------------------------------------------------------
+[2] BibTeX
+
+@article{cunha2023finite,
+  title={Finite variation sensitivity analysis in the design of isotropic metamaterials through discrete topology optimization},
+  author={Cunha, Daniel Candeloro and Pavanello, Renato},
+  journal={International Journal for Numerical Methods in Engineering},
+  pages={e7560},
+  year={2023},
+  publisher={Wiley Online Library}
 }
 ----------------------------------------------------------------------------------------------------------------
